@@ -1,24 +1,35 @@
 {
-  "name": "my-test-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "zr-test-cli-pro",
+  "version": "1.0.1",
   "main": "index.js",
   "bin": {
-    "testcli": "./bin/testcli.js"
+    "testcli": "bin/testcli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rico",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
     "commander": "^7.2.0",
     "download-git-repo": "^3.0.2",
     "ejs": "^3.1.6",
+    "global": "^4.4.0",
     "inquirer": "^8.1.1",
     "ora": "^5.4.1",
-    "rimraf": "^3.0.2"
-  }
+    "rimraf": "^3.0.2",
+    "zr-test-cli-pro": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrless/my-test-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrless/my-test-cli/issues"
+  },
+  "homepage": "https://github.com/zrless/my-test-cli#readme",
+  "description": "my first test cli"
 }
