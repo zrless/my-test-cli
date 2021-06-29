@@ -131,19 +131,6 @@ const init = async (projectName, options) => {
           //文件写入目标目录
           const destDir = process.cwd();
           readDirsAndFiles(templatesDir, destDir, answers);
-          // console.log(files);
-          // if (files && files.length) {
-          //   files.forEach((file) => {
-          //     const filePath = path.join(templatesDir, file);
-          //     ejs.renderFile(filePath, answers, (err, res) => {
-          //       if (err) {
-          //         throw err;
-          //       }
-          //       const writeFilePath = path.join(destDir, file);
-          //       fs.writeFileSync(writeFilePath, res);
-          //     });
-          //   });
-          // }
         })
         .catch((err) => {
           console.error("下载捕捉到的异常: ", err);
